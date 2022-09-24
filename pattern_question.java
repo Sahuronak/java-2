@@ -40,6 +40,21 @@ public class pattern_question {
             }
             System.out.println();
          }
+         /*ques-3 print the following pattern
+          * 
+          * *
+          * * *
+          * * * *
+          */
+          int e = 4;
+          //outer loop
+          for (int i = 1; i<=e; i++){
+            //inner loop
+            for( int j=1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+          }
          
     }
 }
