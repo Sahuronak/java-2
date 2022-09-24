@@ -40,6 +40,7 @@ public class pattern_question {
             }
             System.out.println();
          }
+         System.out.println("this is the third question");
          /*ques-3 print the following pattern
           * 
           * *
@@ -55,6 +56,66 @@ public class pattern_question {
             }
             System.out.println();
           }
+          System.out.println("print the fouth pattern that given below");
+          /* print
+           * * * *
+           * * *
+           * *
+           * 
+           */
+          int f= 4;
+          //outer loop
+          for( int i=4; i<=1; i--){
+            //inner loop
+            for( int j=4; j<=1; j++){
+                System.out.print("*");
+
+            }
+            System.out.println();
+
+          }
+          System.out.println("print the fifth question pattern");
+          /*
+                *
+              * *
+            * * *
+          * * * *    
+           */
+          int g= 4;
+          for( int i= 1; i<=4; i++){
+            //inner loop for space
+            for( int j=1; j<=g-1; j++){
+                System.out.print(" ");
+
+            }
+            //for stars
+            for(int j=1; j<=g; j++){
+                System.out.println("*");
+            }
+            System.out.println();
+          }
+          System.out.println("print the sixth question");
+          /*
+           1
+           1 2
+           1 2 3
+           1 2 3 4
+           1 2 3 4 5
+           */
+          int h = 5;
+        
+          for(int i =1; i<=5; i++){
+            //inner loop
+            for (int j = 1; j<=i; j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+          }
+          System.out.println("print another seventh que pattern given below");
+/*
+ * 1 2 3 4 5
+ */
+
          
     }
 }
