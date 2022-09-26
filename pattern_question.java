@@ -112,9 +112,23 @@ public class pattern_question {
             System.out.println();
           }
           System.out.println("print another seventh que pattern given below");
-/*
- * 1 2 3 4 5
- */
+        /*
+        * 1 2 3 4 5
+        * 1 2 3 4
+        * 1 2 3 
+        * 1 2 
+        * 1
+        */
+        int k= 5;
+        //outer loop
+          for(int i=1; i<=k; i++){
+            //inner loop
+            for(int j= 1; j<=k-i+1; j++){
+                System.out.print(j+" ");
+
+            }
+            System.out.println();
+          }
 
          
     }
