@@ -90,7 +90,7 @@ public class pattern_question {
             }
             //for stars
             for(int j=1; j<=g; j++){
-                System.out.println("*");
+                System.out.print("*");
             }
             System.out.println();
           }
@@ -125,10 +125,29 @@ public class pattern_question {
             //inner loop
             for(int j= 1; j<=k-i+1; j++){
                 System.out.print(j+" ");
-
+            
             }
             System.out.println();
           }
+          System.out.println("here is the eighth question ");
+          /*
+           * 1
+           * 2  3
+           * 4  5  6
+           * 7  8  9  10
+           * 11 12 13 14 15
+           */int l= 1;
+           //outer loop 
+          for (int i= 1; i<=l; i++){
+            //inner loop
+            for( int j = 1; j<=1; j++){
+                System.out.print(+" ");
+               break;
+            }
+            System.out.println();
+
+        
+           }
 
          
     }
