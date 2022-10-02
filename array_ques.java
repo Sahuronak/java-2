@@ -1,7 +1,8 @@
 public class array_ques {
     public static void main(String[] args){
  // promblem :1  create an array of 5 float and calculate their sum
-        /*float [] marks = {56.9f ,76.5f ,87.6f ,65.7f};
+        /* 
+        float [] marks = {56.9f ,76.5f ,87.6f ,65.7f};
         float sum = 0;
         for(float  element:marks){
             sum = sum + element;
